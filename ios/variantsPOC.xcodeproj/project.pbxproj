@@ -18,10 +18,13 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* variantsPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* variantsPOCTests.m */; };
-		5B3662872301F197009BC121 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		5B3662882301F197009BC121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		5B36628C2301F197009BC121 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		5B36628D2301F197009BC121 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		5B36629A2301FF08009BC121 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		5B36629B2301FF08009BC121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5B36629D2301FF08009BC121 /* libPods-variantsPOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7594A64B2BD9B4BCD174B058 /* libPods-variantsPOC.a */; };
+		5B36629E2301FF08009BC121 /* libPods-variantsPOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7594A64B2BD9B4BCD174B058 /* libPods-variantsPOC.a */; };
+		5B3662A02301FF08009BC121 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		5B3662A12301FF08009BC121 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		5B3662A9230200BD009BC121 /* variantsPOC-DEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3662A8230200BD009BC121 /* variantsPOC-DEV.plist */; };
 		661FD9DFEEC20B062637D410 /* libPods-variantsPOCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D38428E23A5EAA421101F2B3 /* libPods-variantsPOCTests.a */; };
 		734F3116AC3BBBBE0B6BD091 /* libPods-variantsPOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7594A64B2BD9B4BCD174B058 /* libPods-variantsPOC.a */; };
 		8AACE61B5B5FACB1B03FED16 /* libPods-variantsPOC-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A35D4A15D04BB2F7A90C2CA /* libPods-variantsPOC-tvOSTests.a */; };
@@ -62,8 +65,9 @@
 		2D02E47B1E0B4A5D006451C7 /* variantsPOC-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "variantsPOC-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* variantsPOC-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "variantsPOC-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B440E46F57AB6D31AD8557 /* Pods-variantsPOC-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-variantsPOC-tvOS.release.xcconfig"; path = "Target Support Files/Pods-variantsPOC-tvOS/Pods-variantsPOC-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		5B3662922301F197009BC121 /* variantsPOC-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "variantsPOC-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B3662932301F197009BC121 /* variantsPOC copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "variantsPOC copy-Info.plist"; path = "/Users/horodnicdragos/Desktop/variantsPOC/ios/variantsPOC copy-Info.plist"; sourceTree = "<absolute>"; };
+		5B3662942301FE6E009BC121 /* libPods-variantsPOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-variantsPOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3662A62301FF08009BC121 /* variantsPOC-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "variantsPOC-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3662A8230200BD009BC121 /* variantsPOC-DEV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "variantsPOC-DEV.plist"; sourceTree = "<group>"; };
 		60AE22573EAD956F5C584F08 /* libPods-variantsPOC-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-variantsPOC-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7594A64B2BD9B4BCD174B058 /* libPods-variantsPOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-variantsPOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		935C2B9232579619F3E01C1F /* Pods-variantsPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-variantsPOC.debug.xcconfig"; path = "Target Support Files/Pods-variantsPOC/Pods-variantsPOC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,10 +114,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B3662892301F197009BC121 /* Frameworks */ = {
+		5B36629C2301FF08009BC121 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B36629D2301FF08009BC121 /* libPods-variantsPOC.a in Frameworks */,
+				5B36629E2301FF08009BC121 /* libPods-variantsPOC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +166,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				5B3662A8230200BD009BC121 /* variantsPOC-DEV.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -169,6 +176,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B3662942301FE6E009BC121 /* libPods-variantsPOC.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				7594A64B2BD9B4BCD174B058 /* libPods-variantsPOC.a */,
@@ -195,7 +203,6 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				0B4D77B3BF9F9A03952F2638 /* Pods */,
-				5B3662932301F197009BC121 /* variantsPOC copy-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -209,7 +216,7 @@
 				00E356EE1AD99517003FC87E /* variantsPOCTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* variantsPOC-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* variantsPOC-tvOSTests.xctest */,
-				5B3662922301F197009BC121 /* variantsPOC-DEV.app */,
+				5B3662A62301FF08009BC121 /* variantsPOC-DEV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -295,15 +302,16 @@
 			productReference = 2D02E4901E0B4A5D006451C7 /* variantsPOC-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5B3662832301F197009BC121 /* variantsPOC-DEV */ = {
+		5B3662962301FF08009BC121 /* variantsPOC-DEV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B36628F2301F197009BC121 /* Build configuration list for PBXNativeTarget "variantsPOC-DEV" */;
+			buildConfigurationList = 5B3662A32301FF08009BC121 /* Build configuration list for PBXNativeTarget "variantsPOC-DEV" */;
 			buildPhases = (
-				5B3662852301F197009BC121 /* Start Packager */,
-				5B3662862301F197009BC121 /* Sources */,
-				5B3662892301F197009BC121 /* Frameworks */,
-				5B36628B2301F197009BC121 /* Resources */,
-				5B36628E2301F197009BC121 /* Bundle React Native code and images */,
+				5B3662972301FF08009BC121 /* [CP] Check Pods Manifest.lock */,
+				5B3662982301FF08009BC121 /* Start Packager */,
+				5B3662992301FF08009BC121 /* Sources */,
+				5B36629C2301FF08009BC121 /* Frameworks */,
+				5B36629F2301FF08009BC121 /* Resources */,
+				5B3662A22301FF08009BC121 /* Bundle React Native code and images */,
 			);
 			buildRules = (
 			);
@@ -311,7 +319,7 @@
 			);
 			name = "variantsPOC-DEV";
 			productName = variantsPOC;
-			productReference = 5B3662922301F197009BC121 /* variantsPOC-DEV.app */;
+			productReference = 5B3662A62301FF08009BC121 /* variantsPOC-DEV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -353,7 +361,7 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* variantsPOC */,
-				5B3662832301F197009BC121 /* variantsPOC-DEV */,
+				5B3662962301FF08009BC121 /* variantsPOC-DEV */,
 				00E356ED1AD99517003FC87E /* variantsPOCTests */,
 				2D02E47A1E0B4A5D006451C7 /* variantsPOC-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* variantsPOC-tvOSTests */,
@@ -393,12 +401,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B36628B2301F197009BC121 /* Resources */ = {
+		5B36629F2301FF08009BC121 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B36628C2301F197009BC121 /* Images.xcassets in Resources */,
-				5B36628D2301F197009BC121 /* LaunchScreen.xib in Resources */,
+				5B3662A9230200BD009BC121 /* variantsPOC-DEV.plist in Resources */,
+				5B3662A02301FF08009BC121 /* Images.xcassets in Resources */,
+				5B3662A12301FF08009BC121 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +464,29 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5B3662852301F197009BC121 /* Start Packager */ = {
+		5B3662972301FF08009BC121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-variantsPOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B3662982301FF08009BC121 /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -474,7 +505,7 @@
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5B36628E2301F197009BC121 /* Bundle React Native code and images */ = {
+		5B3662A22301FF08009BC121 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -629,12 +660,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B3662862301F197009BC121 /* Sources */ = {
+		5B3662992301FF08009BC121 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3662872301F197009BC121 /* AppDelegate.m in Sources */,
-				5B3662882301F197009BC121 /* main.m in Sources */,
+				5B36629A2301FF08009BC121 /* AppDelegate.m in Sources */,
+				5B36629B2301FF08009BC121 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,13 +889,14 @@
 			};
 			name = Release;
 		};
-		5B3662902301F197009BC121 /* Debug */ = {
+		5B3662A42301FF08009BC121 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 935C2B9232579619F3E01C1F /* Pods-variantsPOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = "variantsPOC copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/variantsPOC-DEV.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -877,12 +909,13 @@
 			};
 			name = Debug;
 		};
-		5B3662912301F197009BC121 /* Release */ = {
+		5B3662A52301FF08009BC121 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294A50098A6079AEBD389667 /* Pods-variantsPOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "variantsPOC copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/variantsPOC-DEV.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1033,11 +1066,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B36628F2301F197009BC121 /* Build configuration list for PBXNativeTarget "variantsPOC-DEV" */ = {
+		5B3662A32301FF08009BC121 /* Build configuration list for PBXNativeTarget "variantsPOC-DEV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B3662902301F197009BC121 /* Debug */,
-				5B3662912301F197009BC121 /* Release */,
+				5B3662A42301FF08009BC121 /* Debug */,
+				5B3662A52301FF08009BC121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
